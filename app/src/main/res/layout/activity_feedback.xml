@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feedback_background"
+    android:layout_marginTop="100dp"
+    tools:context=".Feedback">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/edit1"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Feedback"
+        android:layout_below="@id/edit1"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/edit2"
+        />
+
+    <Button
+        android:id="@+id/buttonf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:layout_margin="90dp"
+        android:background="@drawable/buttonshape"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
